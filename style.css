@@ -1,0 +1,35 @@
+body{
+    width: 100%;
+}
+.body1{
+    min-height: 500px;
+    background-color: wheat;
+    text-align: center;
+    padding-top:20px ;
+}
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.col1{
+    min-width: 500px;
+}
+.col2{
+    min-width: 200px;
+}
+.container{
+    padding-top: 40px;
+    align-content: center;
+}
+.tp{
+    padding-left: 900px;
+    text-decoration: underline;
+    color: blue;
+}
+.footer{
+    padding-top: 100px;
+}
+
