@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
@@ -10,104 +10,92 @@
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/00c5e0c84d.js" crossorigin="anonymous"></script><!--load all styles -->
     <title>ASSESTMENT 1</title>
-</head>
-<body>
-    <div class="stickybar">
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">POLICY</a>
-                  </li>
-                </ul>
-            <div class="d-flex">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          ENGLISH
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                          <li><a class="dropdown-item" href="#">ENGLISH</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                        </ul>
-                      </li>
-                </ul>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          USD
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                          <li><a class="dropdown-item" href="#">USD</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                        </ul>
-                      </li>
-                </ul>
+  </head>
+  <body>
+    <!-- <div class="stickybar"> -->
+      <nav class="navbar align-items-end navbar-expand-lg navbar-dark bg-dark px-5">
+        <ul class="navbar-nav me-auto flex-row my-2 my-lg-0 navbar-nav-scroll">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">POLICY</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ENGLISH
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">ENGLISH</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                USD
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">USD</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- </div> -->
+    <!-- <br> -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light px-5"><!--navbar 2-->
+      <div class="container-fluid d-flex justify-content-between">
+        
+        <a href="#" class="navbar-brand text-white py-2 px-5 bg-secondary">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <div class="d-flex justify-content-between flex-wrap w-100">
+            <ul class="navbar-nav mb-2 mb-lg-0 flex-wrap d-flex ">
+              <li class="nav-item px-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Men</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Women</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Product</a>
+              </li> 
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Page</a>
+              </li> 
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+            <div class="d-flex flex-row align-items-center">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#">Sign In</a></li>
+              </ul>
+              <i class="fas fa-search px-3"></i>
+              <i class="far fa-heart px-3"></i>
+              <i class="far fa-envelope-open px-3"></i>
             </div>
-              </div>
-            </div>
-          </nav>
-    </div>
-    <br>
-    <div class="navbar"><!--navbar 2-->
-        <a href="#" class="btn btn-primary">LOGO</a>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-            <div class="container-fluid justify-content-around">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Men</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Women</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Shop</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Product</a>
-                  </li> 
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Page</a>
-                  </li> 
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sign In</a>
-                  </li>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav> 
-  
-        <div class="d-flex"><!--left handside-->
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sign In</a>
-                  </li>
-        </div>  
-            <i class="fas fa-search"></i>
-            <i class="far fa-heart"></i>
-            <i class="far fa-envelope-open"></i>    
-    </div>
+          </div>   
+        </div>   
+      </div>   
+    </nav>
     <div class="body1">
         <h1>Enjoy This </h1>
         <h1>Winter Trend</h1>
@@ -116,115 +104,113 @@
     </div>
 
     <div class="container">
-        <div class="row parent1">
-                    <div class="col col1">
-                        <div class="new-arri">
-                            <div class="card" style=" height: 20em;" >
-                                <div class="card-body">
-                                  <h5 class="card-title">NEW COLLECTION</h5>
-                                  <button>NEW ARRIVALS</button>
-                                </div>
-                            </div> 
-                          </div>
-                    </div>
-                    <div class="col col2 ">
-                        <div class=" men ">
-                            <div class="card" style="height: 20em; ">
-                                <div class="card-body">
-                                  <h5 class="card-title">MEN COLLECTION</h5>
-                                  <button>NEW ARRIVALS</button>
-                                </div>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col col2">
-                        <div class=" women">
-                            <div class="card" style="height: 20em;">
-                                <div class="card-body">
-                                  <h5 class="card-title">WOMEN COLLECTION</h5>
-                                  <button>NEW ARRIVALS</button>
-                                </div>
-                            </div>
-                              </div>
-                    </div>
+      <div class="row parent1">
+        <div class="col col1">
+          <div class="new-arri">
+            <div class="card" >
+                <div class="card-body">
+                  <!-- <h5 class="card-title">NEW COLLECTION</h5> -->
+                  <button>NEW ARRIVALS</button>
+                </div>
+            </div> 
+          </div>
         </div>
+        <div class="col col2 ">
+          <div class=" men ">
+            <div class="card">
+                <div class="card-body">
+                  <!-- <h5 class="card-title">MEN COLLECTION</h5> -->
+                  <button>NEW ARRIVALS</button>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="col col2">
+            <div class=" women">
+              <div class="card">
+                <div class="card-body">
+                  <!-- <h5 class="card-title">WOMEN COLLECTION</h5> -->
+                  <button>NEW ARRIVALS</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
     </div>
     <h2>Featured Products</h2>
-    <div class="col d-flex"><!--section2-->
-        <div class="conten">
-            <div class="row"><!--row-->
-                <div class="col">
-                    <div class="card" style="width: 15rem; height: 15rem;">
-                        <div class="card-body">
-                          <a href="#" class="btn btn-primary">
-                            <i class="fas fa-search"></i>
-                            <i class="far fa-heart"></i>
-                            <i class="fas fa-calendar-week"></i>
-                            <i class="fas fa-retweet"></i>
-                        </a>
-                        </div>
-                    </div>
-                    <p>Short Straight Coat</p>
-                    <span class="cart-price cart-column">$416.99</span>
-                    </div>
-                        <div class="col">
-                    <div class="card" style="width: 15rem; height: 15rem;">
-                        <div class="card-body">
-                          <a href="#" class="btn btn-primary">
-                            <i class="fas fa-search"></i>
-                            <i class="far fa-heart"></i>
-                            <i class="fas fa-calendar-week"></i>
-                            <i class="fas fa-retweet"></i>
-                        </a>
-                        </div>
-                    </div>
-                    <p>Short Straight Coat</p>
-                    <span class="cart-price cart-column">$416.99</span>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 15rem; height: 15rem;">
-                            <div class="card-body">
-                                <a href="#" class="btn btn-primary">
-                                    <i class="fas fa-search"></i>
-                                    <i class="far fa-heart"></i>
-                                    <i class="fas fa-calendar-week"></i>
-                                    <i class="fas fa-retweet"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <p>Short Straight Coat</p>
-                        <span class="cart-price cart-column">$416.99</span>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 15rem; height: 15rem;">
-                            <div class="card-body">
-                                <a href="#" class="btn btn-primary">
-                                    <i class="fas fa-search"></i>
-                                    <i class="far fa-heart"></i>
-                                    <i class="fas fa-calendar-week"></i>
-                                    <i class="fas fa-retweet"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <p>Short Straight Coat</p>
-                        <span class="cart-price cart-column">$416.99</span>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 15rem; height: 15rem;">
-                            <div class="card-body">
-                                <a href="#" class="btn btn-primary">
-                                    <i class="fas fa-search"></i>
-                                    <i class="far fa-heart"></i>
-                                    <i class="fas fa-calendar-week"></i>
-                                    <i class="fas fa-retweet"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <p>Short Straight Coat</p>
-                        <span class="cart-price cart-column">$416.99</span>
-                    </div>
-            </div> 
-        </div>
+    <div class="col d-flex justify-content-center"><!--section2-->
+        <div class="row "><!--row-->
+          <div class="col col3">
+            <div class="card">
+              <div class="card-body">
+                <span class="btn-group">
+                  <a href="#"><i class="fas fa-search"></i></a>
+                  <a href="#"><i class="far fa-heart"></i></a>
+                  <a href="#"><i class="fas fa-calendar-week"></i></a>
+                  <a href="#"><i class="fas fa-retweet"></i></a>
+                </span>
+              </div>
+            </div>
+            <p>Short Straight Coat</p>
+            <span class="cart-price cart-column">$416.99</span>
+          </div>
+          <div class="col col3">
+            <div class="card">
+              <div class="card-body">
+                <span class="btn-group">
+                  <a href="#"><i class="fas fa-search"></i></a>
+                  <a href="#"><i class="far fa-heart"></i></a>
+                  <a href="#"><i class="fas fa-calendar-week"></i></a>
+                  <a href="#"><i class="fas fa-retweet"></i></a>
+                </span>
+              </div>
+            </div>
+            <p>Short Straight Coat</p>
+            <span class="cart-price cart-column">$416.99</span>
+          </div>
+          <div class="col col3">
+            <div class="card">
+              <div class="card-body">
+                <span class="btn-group">
+                  <a href="#"><i class="fas fa-search"></i></a>
+                  <a href="#"><i class="far fa-heart"></i></a>
+                  <a href="#"><i class="fas fa-calendar-week"></i></a>
+                  <a href="#"><i class="fas fa-retweet"></i></a>
+                </span>
+              </div>
+            </div>
+            <p>Short Straight Coat</p>
+            <span class="cart-price cart-column">$416.99</span>
+          </div>
+          <div class="col col3">
+            <div class="card">
+              <div class="card-body">
+                <span class="btn-group">
+                  <a href="#"><i class="fas fa-search"></i></a>
+                  <a href="#"><i class="far fa-heart"></i></a>
+                  <a href="#"><i class="fas fa-calendar-week"></i></a>
+                  <a href="#"><i class="fas fa-retweet"></i></a>
+                </span>
+              </div>
+            </div>
+            <p>Short Straight Coat</p>
+            <span class="cart-price cart-column">$416.99</span>
+          </div>
+          <div class="col col3">
+            <div class="card">
+              <div class="card-body">
+                <span class="btn-group">
+                  <a href="#"><i class="fas fa-search"></i></a>
+                  <a href="#"><i class="far fa-heart"></i></a>
+                  <a href="#"><i class="fas fa-calendar-week"></i></a>
+                  <a href="#"><i class="fas fa-retweet"></i></a>
+                </span>
+              </div>
+            </div>
+            <p>Short Straight Coat</p>
+            <span class="cart-price cart-column">$416.99</span>
+          </div>
+        </div> 
     </div>
    
     <footer class="d-flex footer">
